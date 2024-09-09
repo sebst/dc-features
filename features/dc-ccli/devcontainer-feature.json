@@ -1,13 +1,13 @@
 {
-    "name": "dc-ccli",
-    "id": "dc-ccli",
-    "version": "1.0.0",
-    "description": "The devcontainer.com cCLI",
-    "options": {
-      "version": {
-        "type": "string",
-        "default": "latest",
-        "description": "Version of \"dc-ccli\" to install."
-      }
+  "name": "dc-ccli",
+  "id": "dc-ccli",
+  "version": "1.0.0",
+  "description": "The devcontainer.com cCLI",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Version of \"dc-ccli\" to install."
     }
   }
+}

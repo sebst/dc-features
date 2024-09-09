@@ -1,13 +1,13 @@
 {
-    "name": "pkgx",
-    "id": "pkgx",
-    "version": "1.0.0",
-    "description": "pkgx.sh",
-    "options": {
-      "version": {
-        "type": "string",
-        "default": "latest",
-        "description": "Version of \"pkgx\" to install."
-      }
+  "name": "pkgx",
+  "id": "pkgx",
+  "version": "1.0.1",
+  "description": "pkgx.sh",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "Version of \"pkgx\" to install."
     }
   }
+}
