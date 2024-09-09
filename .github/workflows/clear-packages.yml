@@ -63,7 +63,7 @@ jobs:
                 "${#packagesArray[@]}"
 
           for package in "${packagesArray[@]}"; do
-            if ! [[ "${package}" =~ ^(features)(\/.+)?$ ]]; then
+            if ! [[ "${package}" =~ ^(dc-features)(\/.+)?$ ]]; then
               printf '=== Skip package: "%s" ... \n' \
                 "${package}"
               continue
