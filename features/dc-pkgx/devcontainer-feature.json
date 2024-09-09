@@ -1,6 +1,6 @@
 {
-  "name": "pkgx",
-  "id": "pkgx",
+  "name": "dc-pkgx",
+  "id": "dc-pkgx",
   "version": "1.0.1",
   "description": "pkgx.sh",
   "options": {

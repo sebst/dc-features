@@ -10,7 +10,7 @@ on:
         options:
         - '*'
         - 'dc-ccli'
-        - 'pkgx'
+        - 'dc-pkgx'
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"

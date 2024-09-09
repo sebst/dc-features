@@ -10,7 +10,7 @@ on:
         options:
         - '*'
         - 'dc-ccli'
-        - 'pkgx'
+        - 'dc-pkgx'
 
 run-name: >-
   [delete] Feature Package: "${{ inputs.feature }}"

@@ -4,6 +4,6 @@
     "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
     "features": {
       "ghcr.io/sebst/dc-features/dc-ccli:latest": {}
-      // , "ghcr.io/sebst/dc-fetaures/pkgx:latest": {}
+      // , "ghcr.io/sebst/dc-fetaures/dc-pkgx:latest": {}
     }
   }
