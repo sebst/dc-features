@@ -1,8 +1,8 @@
 {
   "name": "dc-pkgx",
   "id": "dc-pkgx",
-  "version": "1.0.1",
-  "description": "pkgx.sh",
+  "version": "1.0.2",
+  "description": "The installer for pkgx dot sh",
   "options": {
     "version": {
       "type": "string",

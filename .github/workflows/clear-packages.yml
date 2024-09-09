@@ -11,6 +11,7 @@ on:
         - '*'
         - 'dc-ccli'
         - 'dc-pkgx'
+        - 'dc-s6-overlay'
 
 run-name: >-
   [delete] Feature Package: "${{ inputs.feature }}"

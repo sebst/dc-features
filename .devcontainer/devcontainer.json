@@ -1,9 +1,23 @@
 {
-    "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
-    "name": "Development",
-    "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
-    "features": {
-      "ghcr.io/sebst/dc-features/dc-ccli:latest": {}
-      // , "ghcr.io/sebst/dc-fetaures/dc-pkgx:latest": {}
-    }
-  }
+  "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+  "name": "Development",
+  "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
+  "features": {
+    "ghcr.io/sebst/dc-features/dc-ccli:latest": {}
+    // , "ghcr.io/sebst/dc-fetaures/dc-pkgx:latest": {}
+  },
+  "privileged": true,
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb",
+    "storage": "10gb",
+    "gpu": false
+  },
+  "runArgs": [
+    "--shm-size=1g",
+    "--cap-add=SYS_PTRACE",
+    "--security-opt=seccomp=unconfined",
+    // "--add-host=host.docker.internal:host-gateway",
+    // "--volume=/var/run/docker.sock:/var/run/docker.sock"
+  ]
+}

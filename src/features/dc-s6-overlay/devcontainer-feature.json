@@ -1,0 +1,29 @@
+{
+  "name": "dc-s6-overlay",
+  "id": "dc-s6-overlay",
+  "version": "1.0.1",
+  "description": "Install s6-overlay in devcontainer",
+  "entrypoint": "/usr/local/share/entrypoint.bash",
+  "options": {
+    "version": {
+      "description": "Version of s6-overlay to install.",
+      "type": "string",
+      "proposals": ["latest", "3.2.0.0"],
+      "default": "latest"
+    }
+  },
+  "privileged": true,
+  "containerEnv": {
+    "PATH": "$PATH:/command",
+    "S6_VERBOSITY": "5",
+    "S6_KEEP_ENV": "1",
+    "S6_LOGGING": "0",
+    "S6_BEHAVIOUR_IF_STAGE2_FAILS": "1",
+    "S6_CMD_WAIT_FOR_SERVICES_MAXTIME": "0"
+  },
+  "onCreateCommand": "echo ::onCreateCommand::",
+  "updateContentCommand": "echo ::updateContentCommand::",
+  "postCreateCommand": "echo ::postCreateCommand::",
+  "postStartCommand": "echo ::postStartCommand::",
+  "postAttachCommand": "echo ::postAttachCommand::"
+}
