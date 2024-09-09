@@ -39,7 +39,7 @@ jobs:
           printf '=== gh version\n'
           gh version
 
-          readonly apiUrl='/orgs/${{ github.repository_owner }}/packages?package_type=container&per_page=100'
+          readonly apiUrl='/users/${{ github.repository_owner }}/packages?package_type=container&per_page=100'
           printf '=== Get package list from "%s"\n' \
             "${apiUrl}"
           readonly packagesList=$(
@@ -75,7 +75,7 @@ jobs:
               --method 'DELETE' \
               -H 'Accept: application/vnd.github+json' \
               -H 'X-GitHub-Api-Version: 2022-11-28' \
-              "/${{ github.repository_owner }}/packages/container/${packageUrlEncoded}"
+              "/users/${{ github.repository_owner }}/packages/container/${packageUrlEncoded}"
           done
 
       - if: ${{ inputs.feature != '*' }}
@@ -87,4 +87,4 @@ jobs:
             --method 'DELETE' \
             -H 'Accept: application/vnd.github+json' \
             -H 'X-GitHub-Api-Version: 2022-11-28' \
-            '/${{ github.repository_owner }}/packages/container/features%2F${{ env.feature }}'
+            '/users/${{ github.repository_owner }}/packages/container/features%2F${{ env.feature }}'
