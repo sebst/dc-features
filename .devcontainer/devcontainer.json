@@ -5,6 +5,10 @@
   "features": {
     "ghcr.io/sebst/dc-features/dc-ccli:latest": {}
     // , "ghcr.io/sebst/dc-fetaures/dc-pkgx:latest": {}
+    , "ghcr.io/sebst/dc-features/dc-s6-overlay:latest": {}
+    , "ghcr.io/sebst/dc-features/dc-sshd:latest": {}
+    , "ghcr.io/sebst/dc-features/dc-s6-service-sshd:latest": {}
+    , "ghcr.io/sebst/dc-features/dc-sshd-config-global:latest": {}
   },
   "privileged": true,
   "hostRequirements": {

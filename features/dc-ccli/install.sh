@@ -9,7 +9,7 @@ readonly binaryName="${name}"
 readonly binaryPathInArchive="${binaryName}"
 readonly binaryTargetFolder='/usr/local/bin'
 readonly binaryTargetPath="${binaryTargetFolder}/${binaryPathInArchive}"
-readonly versionArgument='-h'
+readonly versionArgument='--version'
 
 if ! [[ "${VERSION:-}" =~ ^(latest|[0-9]+\.[0-9]+\.[0-9]+)$ ]]; then
   >&2 printf '=== [ERROR] Option "version" (value: "%s") is not "latest" or valid semantic version format "X.Y.Z" !\n' \
