@@ -1,0 +1,51 @@
+name: "[release] Publish Feature(s)"
+on:
+  workflow_dispatch:
+    inputs:
+      feature:
+        type: choice
+        description: Which feature shall I publish?
+        required: true
+        default: '*'
+        options:
+        - '*'
+        - 'dc-ccli'
+        - 'pkgx'
+
+run-name: >-
+  [release] Publish Feature: "${{ inputs.feature }}"
+
+concurrency:
+  group: ${{ github.workflow }}-${{ inputs.feature }}
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: '[release] Publish Feature(s)'
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - if: ${{ inputs.feature == '*' }}
+        uses: actions/checkout@v4
+
+      - if: ${{ inputs.feature != '*' }}
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout-cone-mode: 'true'
+          sparse-checkout: |
+            features/${{ inputs.feature }}
+
+      - name: "Publish Features"
+        uses: devcontainers/action@v1
+        with:
+          publish-features: "true"
+          base-path-to-features: "./features"
+          generate-docs: "false"
+          disable-repo-tagging: "true"
+          ## see: https://github.com/devcontainers/spec/issues/204
+          disable-schema-validation: "false"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
