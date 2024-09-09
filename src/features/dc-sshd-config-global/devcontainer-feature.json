@@ -1,0 +1,6 @@
+{
+    "name": "dc-sshd-config-global",
+    "id": "dc-sshd-config-global",
+    "version": "1.0.2",
+    "description": "SSH Server Config"
+}

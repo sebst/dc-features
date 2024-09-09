@@ -1,0 +1,6 @@
+{
+    "name": "dc-sshd",
+    "id": "dc-sshd",
+    "version": "1.0.0",
+    "description": "SSH Server"
+}

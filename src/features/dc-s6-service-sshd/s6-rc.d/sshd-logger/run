@@ -1,0 +1,3 @@
+#!/command/execlineb -PW
+foreground { echo "[sshd] Starting logger ..." }
+sed --unbuffered "s/^/[sshd] /"

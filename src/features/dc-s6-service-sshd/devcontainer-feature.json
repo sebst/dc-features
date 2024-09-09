@@ -1,0 +1,5 @@
+{
+  "name": "dc-s6-service-sshd",
+  "id": "dc-s6-service-sshd",
+  "version": "1.0.2"
+}

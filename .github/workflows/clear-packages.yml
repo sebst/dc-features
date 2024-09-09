@@ -12,6 +12,9 @@ on:
         - 'dc-ccli'
         - 'dc-pkgx'
         - 'dc-s6-overlay'
+        - 'dc-s6-service-sshd'
+        - 'dc-sshd'
+        - 'dc-sshd-config-global'
 
 run-name: >-
   [delete] Feature Package: "${{ inputs.feature }}"

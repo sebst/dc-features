@@ -1,0 +1,12 @@
+#!/command/execlineb -P
+foreground { echo "Starting service ..." }
+foreground { install -m "2755" -o "root" -g "root" -d "/run/sshd" }
+fdmove -c 2 1
+s6-envdir -i /etc/s6-overlay/s6-rc.d/sshd/s6-envdir
+importas -u SSHD__CONFIG_FILE SSHD__CONFIG_FILE
+# options:
+# -f = config file
+# -e = send output to stderr
+# -D = do not daemonize
+# -4 = only listen on IPv4
+/usr/sbin/sshd -f /etc/ssh/sshd_config -D -4 -e
