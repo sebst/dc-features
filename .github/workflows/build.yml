@@ -15,6 +15,7 @@ on:
         - 'dc-s6-service-sshd'
         - 'dc-sshd'
         - 'dc-sshd-config-global'
+        - 'zz-double-install-test'
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"
