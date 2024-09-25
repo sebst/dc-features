@@ -36,7 +36,7 @@ fi
 
 # Install pkgx.sh
 # TODO: Needs to be done by dc-ccli
-# curl -Ssf https://pkgx.sh | sh
+curl -Ssf https://pkgx.sh | sh
 
 # Get the config file
 curl -SsfL "${configFileUrl}" > "/tmp/config.json"

@@ -1,7 +1,7 @@
 {
     "name": "dc-setup-env",
     "id": "dc-setup-env",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Test feature set up env from array",
     "installsAfter": ["ghcr.io/sebst/dc-features/dc-ccli"],
     "options": {
