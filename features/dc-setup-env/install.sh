@@ -41,6 +41,9 @@ fi
 # Get the config file
 curl -SsfL "${configFileUrl}" > "/tmp/config.json"
 
+# Ensure the config file is there
+ls /tmp | grep config.json
+
 # Apply the config file
 dc-ccli config apply "/tmp/config.json"
 
