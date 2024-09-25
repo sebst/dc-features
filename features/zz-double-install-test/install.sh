@@ -11,6 +11,8 @@ echo "echo 'Hello, World!'" >> "${targetPath}"
 echo 'echo $0' >> "${targetPath}"
 chmod +x "${targetPath}"
 
+env > /tmp/env.txt
+
 
 printf '=== [Success] Feature "%s" installed.\n' \
   "${name}"

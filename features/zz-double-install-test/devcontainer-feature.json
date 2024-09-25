@@ -1,7 +1,7 @@
 {
     "name": "zz-double-install-test",
     "id": "zz-double-install-test",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Test feature to check if a feature can be installed twice.",
     "options": {
       "execname": {
