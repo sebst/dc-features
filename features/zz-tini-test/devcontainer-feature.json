@@ -1,0 +1,7 @@
+{
+    "name": "zz-tini-test",
+    "id": "zz-tini-test",
+    "version": "1.0.0",
+    "description": "Test feature to check what happens if `init` is `true`.",
+    "init": true
+  }

@@ -17,6 +17,7 @@ on:
         - 'dc-sshd'
         - 'dc-sshd-config-global'
         - 'zz-double-install-test'
+        - 'zz-tini-test'
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"
