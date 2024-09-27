@@ -10,6 +10,7 @@ on:
         options:
         - '*'
         - 'dc-ccli'
+        - 'dc-init'
         - 'dc-pkgx'
         - 'dc-s6-overlay'
         - 'dc-s6-service-sshd'

@@ -34,18 +34,29 @@ if [ $requiredAptPackagesMissingCount -gt 0 ]; then
         "${requiredAptPackagesMissing[@]}"
 fi
 
+# Create the directories
+mkdir /var/devcontainer.com
+chmod a+rw /var/devcontainer.com
+touch /var/devcontainer.com/services.proc
+chmod a+rw /var/devcontainer.com/services.proc
+touch /var/devcontainer.com/services.env
+chmod a+rw /var/devcontainer.com/services.env
+touch /var/devcontainer.com/config.json
+chmod a+rw /var/devcontainer.com/config.json
+
+
 # Install pkgx.sh
 # TODO: Needs to be done by dc-ccli
 curl -Ssf https://pkgx.sh | sh
 
 # Get the config file
-curl -SsfL "${configFileUrl}" > "/tmp/config.json"
+curl -SsfL "${configFileUrl}" > "/var/devcontainer.com/config.json"
 
 # Ensure the config file is there
-ls /tmp | grep config.json
+ls /var/devcontainer.com | grep config.json
 
 # Apply the config file
-dc-ccli config apply "/tmp/config.json"
+dc-ccli config apply "/var/devcontainer.com/config.json"
 
 
 printf '=== [Success] Feature "%s" installed.\n' \
