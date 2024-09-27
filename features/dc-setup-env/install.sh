@@ -41,8 +41,8 @@ touch /var/devcontainer.com/services.proc
 chmod a+rw /var/devcontainer.com/services.proc
 touch /var/devcontainer.com/services.env
 chmod a+rw /var/devcontainer.com/services.env
-touch /var/devcontainer.com/config.json
-chmod a+rw /var/devcontainer.com/config.json
+# touch /var/devcontainer.com/config.json
+# chmod a+rw /var/devcontainer.com/config.json
 
 
 # Install pkgx.sh
