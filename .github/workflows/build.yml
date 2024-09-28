@@ -11,6 +11,7 @@ on:
         - '*'
         - 'dc-ccli'
         - 'dc-init'
+        - 'dc-one'
         - 'dc-pkgx'
         - 'dc-s6-overlay'
         - 'dc-s6-service-sshd'
