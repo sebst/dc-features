@@ -3,7 +3,7 @@
     "id": "dc-one",
     "version": "1.0.1",
     "description": "DevContainer.com feature",
-    "installsAfter": ["ghcr.io/sebst/dc-features/dc-ccli", "ghcr.io/sebst/dc-features/dc-setup-env"],
+    "installsAfter": [],
     "init": true,
     "entrypoint": "/var/devcontainer.com/entrypoint",
     "options": {
