@@ -5,7 +5,7 @@ readonly name='dc-init'
 cp shoreman.sh /var/devcontainer.com/shoreman
 chmod +x /var/devcontainer.com/shoreman
 
-cp entrypoint.sh /var/devcontainer.com/entrypoint
+cp dc-entrypoint.sh /var/devcontainer.com/entrypoint
 chmod +x /var/devcontainer.com/entrypoint
 
 printf '=== [Success] Feature "%s" installed.\n' \
