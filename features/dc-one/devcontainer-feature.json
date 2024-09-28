@@ -1,7 +1,7 @@
 {
     "name": "dc-one",
     "id": "dc-one",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "DevContainer.com feature",
     "installsAfter": [],
     "init": true,
