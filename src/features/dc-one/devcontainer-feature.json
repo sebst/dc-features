@@ -1,0 +1,21 @@
+{
+    "name": "dc-one",
+    "id": "dc-one",
+    "version": "1.0.0",
+    "description": "DevContainer.com feature",
+    "installsAfter": ["ghcr.io/sebst/dc-features/dc-ccli", "ghcr.io/sebst/dc-features/dc-setup-env"],
+    "init": true,
+    "entrypoint": "/var/devcontainer.com/entrypoint",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Version of \"dc-ccli\" to install."
+        },
+        "url": {
+            "type": "string",
+            "default": "https://raw.githubusercontent.com/sebst/brewkit-test/refs/heads/main/test-ccli-spec.json",
+            "description": "URL of the JSON file to install."
+        }
+    }
+}
