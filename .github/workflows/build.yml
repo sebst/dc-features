@@ -9,6 +9,7 @@ on:
         default: '*'
         options:
         - '*'
+        - 'cf-warp-cli'
         - 'dc-ccli'
         - 'dc-init'
         - 'dc-one'
