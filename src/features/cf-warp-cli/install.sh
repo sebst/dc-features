@@ -4,8 +4,8 @@ echo "=== Installing Cloudflare Warp CLI ==="
 
 ./install.checktos.sh
 
-DISTRIBUTION='debian'
 echo "...Installing cli"
+DISTRIBUTION="$(. /etc/os-release && echo ${ID:?})"
 case "$DISTRIBUTION" in
    "debian") ./install.debian.sh
    ;;
