@@ -19,6 +19,10 @@ on:
         - 'dc-setup-env'
         - 'dc-sshd'
         - 'dc-sshd-config-global'
+        - 'dump-env'
+        - 'dump-env-2'
+        - 'test-init'
+        - 'test-init-2'
         - 'zz-double-install-test'
         - 'zz-tini-test'
 
