@@ -1,0 +1,16 @@
+{
+    "name": "dump-env",
+    "id": "dump-env",
+    "version": "0.0.1",
+    "description": "Writes environment variables to a file",
+    "installsAfter": [],
+    "init": false,
+    "privileged": false,
+    "options": {
+        "testvar1": {
+            "type": "string",
+            "default": "testvar1value",
+            "description": "dummy variable"
+        }
+    }
+}

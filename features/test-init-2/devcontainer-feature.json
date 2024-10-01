@@ -1,0 +1,17 @@
+{
+    "name": "dump-env-2",
+    "id": "dump-env-2",
+    "version": "0.0.1",
+    "description": "Writes environment variables to a file",
+    "installsAfter": [],
+    "init": true,
+    "entrypoint": "/usr/local/bin/entrypoint-test-2",
+    "privileged": false,
+    "options": {
+        "testvar1": {
+            "type": "string",
+            "default": "testvar1value",
+            "description": "dummy variable"
+        }
+    }
+}
