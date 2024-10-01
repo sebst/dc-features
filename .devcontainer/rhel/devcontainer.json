@@ -3,7 +3,7 @@
   "name": "Development rhel",
   "image": "redhat/ubi8",
   "features": {
-    "ghcr.io/sebst/dc-features/cf-warp-cli:latest": {"accept_tos": true}
+    "ghcr.io/sebst/dc-features/cf-warp-cli:latest": {"accept_tos": "YES"}
     // "ghcr.io/sebst/dc-features/dc-ccli:latest": {}
     // , "ghcr.io/sebst/dc-fetaures/dc-pkgx:latest": {}
     // , "ghcr.io/sebst/dc-features/dc-s6-overlay:latest": {}

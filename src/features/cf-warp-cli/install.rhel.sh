@@ -1,5 +1,4 @@
 #!/usr/bin/env -S bash --noprofile --norc -o errexit -o pipefail -o noclobber -o nounset
 
-echo "Setting up Cloudflare WARP..."
-curl -fsSl https://pkg.cloudflareclient.com/cloudflare-warp-ascii.repo | sudo tee /etc/yum.repos.d/cloudflare-warp.repo
-yum update -y --setopt=install_weak_deps=False && yum install -y --setopt=install_weak_deps=False cloudflare-warp
+echo "Centos is not supported"
+exit 1
