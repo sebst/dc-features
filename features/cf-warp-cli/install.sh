@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="127614771"
-MD5="68b60c6a63abb0b457e91175d6ecc8d6"
-SHA="b0799ec8f6c43516b2c2ccc7b54b6f70eaa3fe772a9ad1f069f4439f2d784030"
+CRCsum="3577904755"
+MD5="bd5188dbf6ec143349d129456f876e79"
+SHA="5392c60b4a193e2b87350f52642055af137a9cbcfe4a82dd14b78d5025671762"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="1245"
-totalsize="1245"
+filesizes="1248"
+totalsize="1248"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Tue Oct  1 09:48:48 CEST 2024
+	echo Date of packaging: Tue Oct  1 10:16:18 CEST 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/cf-warp-cli.75Fh1xITyl/\" \\
+    \"/tmp/cf-warp-cli.DBXHj4wtar/\" \\
     \"/home/bas/_Code/dc-features/features/cf-warp-cli/install.sh\" \\
     \"Devcontainer.com Feature: cf-warp-cli\" \\
     \"./entrypoint.sh\""
@@ -716,6 +716,6 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ `©ûfíZmoÛ6ögýŠ«ÔËI~7ÐÀ2'´IgŠ¢$Š¶…È¢@RÉŒmÿ}GIqd»MÒ-Kbïž6EOâËCÞézlâÜø2uXyA”x·ŽæJ»jVû×h úÝ®ùoö»êŽv³Skvzý^¿Õév0¿Ùmõ[5hÔž™Ò¾ÄO	|u¯ÜCå[ŠïÞx™’ùÀóäœ1`Cgà8‰H¥˜D1ÏÓ’#€KÉ´I¦QÊ'~›t"X,‚€Ëâ!K×–ÅÙL€=œqv%Søíðü˜HÎt$×um‹e(˜iªwžwssã¢ª,œÄ¾ä.s…‰Ã¦‘§¥Ï8ü	SÉS°ÍˆÄ._r$Žêj„o†»Âÿ(A6Ä±Ëx¢…zò?‚ÿÍî:ÿ;ý~“ø¿Ýüw—³IÎxŒs‰ø¹=ü7«ö“­ ñ¿Óhoîÿ=âÿVóJXÑ>½÷Çápx|vqyq:þË†7¨<×áóèOrñb3ÿ(2˜ã¨€ÏOµ)†áÒ((ìÍå\˜€âò:BÃ X`RkchùzQ÷§pDjÐ¢x%
-ùËLCšÖ$²ˆÿüyùÉ3íÿÍf«·±ÿ·ÄÿÝàÁêqÉÎ,]'sî	¨,à§Ú™rT¿@±Ð×¼t&jü~é#¤WÓŠ€“MÕÜSH³àŠ/Üi:E7!×g’Ž³à
-CîË¹À/tD¦ÓLCÞl5CV“ømÊ»Ó[PÂ—l]s§0ºËæ Aà“)øó°×M:Ábðõ~~¸°÷}¬‚KÉcî+¦öaîG‰}Û^Í9x\3;ÒS"“Œ+7ŽÐ‹«ŸPª4«ý^t:¼}+Ùå¢`†ÅL§|vðãÄ|Î“PÁZÉÒÛòõÂC!ý—ôÿÚdÿ‘ÿGx!þ4¢åSÑÿAþ·6â¿fÿw þ{"4Zi*¤æ! ¶@»B´=ddÆ1³Q´ðÅˆ¯…ÿåŠ]{1þwZ]âÿNòÿüìƒy>¨…Ò|®ˆÿ¯ÿOFýÇÅºÍ5þ·;}âÿNð0À¨˜U&üSýà¤ƒáû ˆ]u*‡–u4_œ~úåbtz2¨qÉz©ÛuÝŠjœ¿¶ÅLdÄÞ«Ö²!ÊÃËvQÙÞw3Îir±,È­ˆY«bÅéŠØòÔ´"VxÒ+bKçº"f6\Øôš–B?ìßÆÔÜC½”âÊgÖ]ïŒ¹ÎÒÊ¡»½¬Lž[æ™š_êKsõ“QªíÊÈ˜ì"7›»þÒ°–•p¡Ï˜–Ú-ZÿWú¿·ÿ0½vþ×ë÷iýßîõŸ¥P^'[Þ&+‚î±`~¼rÕÌb³¹çÈW%ˆ©ÏÉÿå†÷Lñßõó¿n£E÷ÿv&þ{geß^7ÿ×Ãç‰ÿ´Û­Íø/íÿÛÍÿåù~–|;ÃPYq5ÇAO	$Ÿš@°ŸßÏIøÍ}²h ð¼èÇPÌî,g/­5ä?:­r‘Š(ÑOöùþ¯Ç[ÍÝÿÙ…øO}`ÂGÇ¿OO.G'Ççîðôƒ‰êwð3÷u&ù;¨lF•ò¯ n±ìJ•j¬‚¬@ @ @ ð?Ãß¢²˜é P  
+‹ Ò¯ûfíZmoÛ6ögýŠ«ÔËI¶ü4ð‡ÌMmÄÙ†¢(™¢m!²(T2cÛßQRÙn“tË’Ø»çƒMQÇ“(ÞCÞézlâ\2uXyã(ñn.Í•vÕ¬ö¯Ñ@ô:óßìuÕÿ­f»Ölw{Ýžßëù~­Ñì`¡Ú S:ø*ã@Ý)wßý-ÅëW^¦d>ð<¹gØÑ8N"R)&QÌó²dààRòß#mŠi”òIÅ¦œ‹ñ˜Ëâ"K×–ÅÙL€=˜qv%Søíðì˜HÎt$×um‹e(˜iª·žw}}í¢ª,œÄä.s…‰Ã¦‘§eÀ8ü	SÉS°öEb—y'Žêj„ï†»Âÿ(A6Ä±Ëx¢…zò?€ÿÍÎ:ÿÛ½^—ø¿Ýüw—Ö$g<F["~nÿÍ¬ýh3À}üo7Zëë«ˆÿÛÌ(aEøöÞ‡ƒÁÑéùÅùÉè/^õ¡þéhT‡/ g<ÉÅ‹Åü“È`Ž£c<Õæ6–NAáGh.ç
+Ä—W:ãµ6Ž†‘¯m/Ð„ë Rãp€Å#ÑQÈf:Ò´&‘EüßàÈÇQ<ÑúßlúÝõßïÿwƒÿ«G%;³tÌy$ ²P@jgÊQýÅÂ@ó2@˜¨Ñ‡eŒ^N+1-ºªy¤fãK¾p§éÃ„\Ÿ):Î‚+üy çßÐ™N3y·ÕuxØLâ»)ïVoA‰@²YtÅRÀè.»ƒÏæv?˜‡Ý6¨hšðÐ/úÿPï—û;{?Äj|!yÌ…ÃÂÔ>Ìƒ(±oú«9kæá‡ô”È$ãÊ#ŒâÃê+”*ÍÕï^|txóVªËIÁ‹1§¼vðåÄ|Î“PÁZÉÓÛòùÂC!ƒçŒÿÚäÿQüGx&þt¢åcÑÿ^þûùßv×oÿw!ÿ{,4zi*¤æ!`¶@¿Bô=d4ÎL`f£h‹_
+ÿË»ölüo·|âÿNòÿìô£y^¨…Ò|®ˆÿ/ÿFý‡å:ëùßV§Ñ&þïÿûý>«2éŸjî†€"v5\¨l>XÖ»áèüløó/çÃ“ã~½ÈKÖKÝ®ëVT£ýÚ3™{¯ÚÊ†(O/ÛEc{ÜÍ<§88ÈÅ²q–èlE¬¨Z+¶HWÄ–»¦±"’^[×1³à¢ÀfÔ´úqÿ&§æn8ê¥W³n¿Îˆë,­lºÛÖkl«L­[Öš¶_ûšæð(&£TÛ•±1ÕEm>:·cüµ-áTŸ1M¶[3ÿ¯óïÿaymÿ¯Góÿ¶Ïÿ,…ò8Ùò4Y‘tâ•£f›ÍEh#ß” ¦>%ÿ—Þå×÷ÿ:ŸÎÿíLþ÷ÖË"¾½lþ¯»†O“ÿiµüÍü/­ÿÛÍÿåþ¾—|ca¨¬8šã`¤’OM"8ÈÏç$üú.Ytx~ë§PÌî,­—æšòƒV¹HE”èGNû|ÿ×ó¿~³Mçv!ÿSï›äÀ»£_'Çç‡Ãã£3wpòÑäúõ[	xÏIþ*‹Qåþ7P·Xv¥I5SAÞ@ @ @ @øŸáoOô"K P  

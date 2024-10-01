@@ -1,10 +1,11 @@
 {
     "name": "cf-warp-cli",
     "id": "cf-warp-cli",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Cloudflare Warp CLI",
     "installsAfter": [],
-    "init": false,
+    "init": true,
+    "privileged": true,
     "options": {
         "accept_tos": {
             "type": "string",

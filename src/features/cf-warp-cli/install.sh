@@ -22,7 +22,7 @@ case "$DISTRIBUTION" in
 esac
 
 echo "...Setup connection"
-./setup.connect.sh
+# ./setup.connect.sh
 echo "...Installing test script"
 ./install.testscript.sh
 
