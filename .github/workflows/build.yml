@@ -23,6 +23,7 @@ on:
         - 'dump-env-2'
         - 'test-init'
         - 'test-init-2'
+        - 'test-meta'
         - 'zz-double-install-test'
         - 'zz-tini-test'
 

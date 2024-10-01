@@ -1,0 +1,22 @@
+{
+    "name": "test-meta",
+    "id": "test-meta",
+    "version": "0.0.1",
+    "description": "Tests dependsOn and options",
+    "installsAfter": [],
+    "dependsOn": ["ghcr.io/sebst/dc-features/dump-env", "ghcr.io/sebst/dc-features/dump-env-2"],
+    "init": false,
+    "privileged": false,
+    "options": {
+        "testvar1": {
+            "type": "string",
+            "default": "testvar1value",
+            "description": "dummy variable"
+        },
+        "testvar2": {
+            "type": "string",
+            "default": "testvar2value",
+            "description": "dummy variable"
+        }
+    }
+}
