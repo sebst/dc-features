@@ -1,4 +1,5 @@
 #!/usr/bin/env -S bash --noprofile --norc -o errexit -o pipefail -o noclobber -o nounset
 
-./install.rhel.sh
-
+echo "Setting up Cloudflare WARP..."
+curl -fsSl https://pkg.cloudflareclient.com/cloudflare-warp-ascii.repo | sudo tee /etc/yum.repos.d/cloudflare-warp.repo
+sudo yum update -y --setopt=install_weak_deps=False && sudo yum install -y --setopt=install_weak_deps=False cloudflare-warp
