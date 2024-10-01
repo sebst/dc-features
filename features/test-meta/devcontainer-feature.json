@@ -4,7 +4,10 @@
     "version": "0.0.1",
     "description": "Tests dependsOn and options",
     "installsAfter": [],
-    "dependsOn": ["ghcr.io/sebst/dc-features/dump-env", "ghcr.io/sebst/dc-features/dump-env-2"],
+    "dependsOn": {
+        "ghcr.io/sebst/dc-features/dump-env": {},
+        "ghcr.io/sebst/dc-features/dump-env-2": {}
+    },
     "init": false,
     "privileged": false,
     "options": {
