@@ -1,5 +1,4 @@
 #!/usr/bin/env -S bash --noprofile --norc -o errexit -o pipefail -o noclobber -o nounset
         
-sudo warp-cli --accept-tos registration new
-sudo warp-cli --accept-tos mode warp+doh
-sudo warp-cli --accept-tos connect
+cp bin/warp-cli-connect.sh /usr/local/bin/warp-cli-connect
+chmod 755 /usr/local/bin/warp-cli-connect
