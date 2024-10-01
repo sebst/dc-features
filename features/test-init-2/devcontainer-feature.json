@@ -1,7 +1,7 @@
 {
     "name": "test-init-2",
     "id": "test-init-2",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Starts an entrypoint script",
     "installsAfter": [],
     "init": true,

@@ -2,4 +2,4 @@
 
 echo "Installing entrypoint..."
 
-install -v -m 755 ./entrypoint-test.sh /usr/local/bin/entrypoint-2
+install -v -m 755 ./entrypoint-test.sh /usr/local/bin/entrypoint-test-2
