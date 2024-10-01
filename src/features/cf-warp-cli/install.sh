@@ -4,11 +4,26 @@ echo "=== Installing Cloudflare Warp CLI ==="
 
 ./install.checktos.sh
 
-./install.debian.sh
+DISTRIBUTION='debian'
+echo "...Installing cli"
+case "$DISTRIBUTION" in
+   "debian") ./install.debian.sh
+   ;;
+   "ubuntu") ./install.ubuntu.sh
+   ;;
+   "centos") ./install.centos.sh
+   ;;
+   "fedora") ./install.fedora.sh
+   ;;
+   "rhel")   ./install.rhel.sh
+   ;;
+   *)        ./install.other.sh
+   ;;
+esac
 
-./install.connect.sh
-
-cp bin/war-cli-test /usr/local/bin/warp-cli
-chmod 755 /usr/local/bin/warp-cli
+echo "...Setup connection"
+./setup.connect.sh
+echo "...Installing test script"
+./install.testscript.sh
 
 echo "=== Cloudflare Warp CLI installed ==="
