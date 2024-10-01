@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/devcontainers/spec/main/schemas/devContainer.schema.json",
+  "name": "Development rhel",
+  "image": "redhat/ubi8",
+  "features": {
+    "ghcr.io/sebst/dc-features/cf-warp-cli:latest": {"accept_tos": true}
+    // "ghcr.io/sebst/dc-features/dc-ccli:latest": {}
+    // , "ghcr.io/sebst/dc-fetaures/dc-pkgx:latest": {}
+    // , "ghcr.io/sebst/dc-features/dc-s6-overlay:latest": {}
+    // , "ghcr.io/sebst/dc-features/dc-sshd:latest": {}
+    // , "ghcr.io/sebst/dc-features/dc-s6-service-sshd:latest": {}
+    // , "ghcr.io/sebst/dc-features/dc-sshd-config-global:latest": {}
+  },
+  "privileged": true,
+  "hostRequirements": {
+    "cpus": 2,
+    "memory": "4gb",
+    "storage": "10gb",
+    "gpu": false
+  },
+  "runArgs": [
+    "--shm-size=1g",
+    "--cap-add=SYS_PTRACE",
+    "--security-opt=seccomp=unconfined"
+    // "--add-host=host.docker.internal:host-gateway",
+    // "--volume=/var/run/docker.sock:/var/run/docker.sock"
+  ]
+}
