@@ -29,6 +29,7 @@ on:
         - 'desktop-xserver'
         - 'desktop-fluxbox'
         - 'desktop-novnc'
+        - 'desktop'
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"
