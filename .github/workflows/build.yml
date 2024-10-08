@@ -26,6 +26,7 @@ on:
         - 'test-meta'
         - 'zz-double-install-test'
         - 'zz-tini-test'
+        - 'xserver'
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"
