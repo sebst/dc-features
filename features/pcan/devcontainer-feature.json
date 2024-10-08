@@ -1,0 +1,25 @@
+{
+    "name": "pcan",
+    "id": "pcan",
+    "documentationURL": "https://github.com/sebst/devcontainer-features/tree/main/src/pcan",
+    "version": "1.0.0",
+    "description": "Experimental `pcan` feature",
+    "installsAfter": [],
+    "init": false,
+    "privileged": true,
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Currently unused"
+        }
+    },
+    "capAdd": ["SYS_MODULE"]
+    // "mounts": [
+    //     {
+    //         "source": "/lib/modules",
+    //         "target": "/lib/modules",
+    //         "type": "bind"
+    //     }
+    // ]
+}

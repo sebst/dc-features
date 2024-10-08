@@ -31,6 +31,7 @@ on:
         - 'desktop-novnc'
         - 'desktop'
         - 'desktop-init'
+        - 'pcan'
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"
