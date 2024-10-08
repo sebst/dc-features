@@ -1,0 +1,25 @@
+{
+    "name": "novnc",
+    "id": "novnc",
+    "version": "0.0.1",
+    "description": "Installs [noVNC](https://novnc.com) and websockify binaries.",
+    "installsAfter": [
+        "ghcr.io/sebst/dc-features/xserver",
+        "ghcr.io/sebst/dc-features/fluxbox"
+    ],
+    "init": false,
+    "privileged": false,
+    "containerEnv": {
+        "DISPLAY": ":1"
+    },
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "1.2.0"
+            ],
+            "default": "latest",
+            "description": "The version of noVNC to install."
+        }
+    }
+}

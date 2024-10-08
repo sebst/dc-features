@@ -28,6 +28,7 @@ on:
         - 'zz-tini-test'
         - 'xserver'
         - 'fluxbox'
+        - 'novnc'
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"
