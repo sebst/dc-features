@@ -3,9 +3,7 @@
   "name": "Development debian",
   "image": "mcr.microsoft.com/vscode/devcontainers/base:debian",
   "features": {
-    "ghcr.io/sebst/dc-features/xserver:latest": {},
-    "ghcr.io/sebst/dc-features/fluxbox:latest": {},
-    "ghcr.io/sebst/dc-features/novnc:latest": {}
+    "ghcr.io/sebst/dc-features/desktop-init": {}
     // "ghcr.io/devcontainers/features/desktop-lite:1": {}
     // "ghcr.io/sebst/dc-features/cf-warp-cli:latest": {"accept_tos": "YES"}
     // "ghcr.io/sebst/dc-features/dc-ccli:latest": {}

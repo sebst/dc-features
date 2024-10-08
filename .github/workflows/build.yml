@@ -30,6 +30,7 @@ on:
         - 'desktop-fluxbox'
         - 'desktop-novnc'
         - 'desktop'
+        - 'desktop-init'
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"
