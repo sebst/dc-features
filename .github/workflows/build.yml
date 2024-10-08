@@ -27,6 +27,7 @@ on:
         - 'zz-double-install-test'
         - 'zz-tini-test'
         - 'xserver'
+        - 'fluxbox'
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"
