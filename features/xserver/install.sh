@@ -152,7 +152,7 @@ fi
 echo -e "\nSuccess!\n"
 EOF
 
-chmod +x /usr/local/share/desktop-init.sh /usr/local/bin/set-resolution
+chmod +x /usr/local/bin/set-resolution
 
 # Clean up
 rm -rf /var/lib/apt/lists/*
