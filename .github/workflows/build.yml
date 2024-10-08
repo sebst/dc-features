@@ -26,9 +26,9 @@ on:
         - 'test-meta'
         - 'zz-double-install-test'
         - 'zz-tini-test'
-        - 'xserver'
-        - 'fluxbox'
-        - 'novnc'
+        - 'desktop-xserver'
+        - 'desktop-fluxbox'
+        - 'desktop-novnc'
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"

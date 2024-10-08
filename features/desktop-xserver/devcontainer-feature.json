@@ -1,7 +1,7 @@
 {
-    "name": "xserver",
-    "id": "xserver",
-    "version": "0.0.3",
+    "name": "desktop-xserver",
+    "id": "desktop-xserver",
+    "version": "0.0.4",
     "description": "XServer",
     "installsAfter": [],
     "init": false,

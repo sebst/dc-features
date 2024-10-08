@@ -1,7 +1,7 @@
 #!/bin/bash
 
-user_name="vscode"
-group_name="vscode"
+user_name="vscode"  # TODO
+group_name="vscode" # TODO
 LOG=/tmp/container-init.log
 
 export DBUS_SESSION_BUS_ADDRESS="${DBUS_SESSION_BUS_ADDRESS:-"autolaunch:"}"

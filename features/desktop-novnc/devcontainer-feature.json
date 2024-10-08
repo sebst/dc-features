@@ -1,11 +1,11 @@
 {
-    "name": "novnc",
-    "id": "novnc",
-    "version": "0.0.1",
+    "name": "desktop-novnc",
+    "id": "desktop-novnc",
+    "version": "0.0.2",
     "description": "Installs [noVNC](https://novnc.com) and websockify binaries.",
     "installsAfter": [
-        "ghcr.io/sebst/dc-features/xserver",
-        "ghcr.io/sebst/dc-features/fluxbox"
+        "ghcr.io/sebst/dc-features/desktop-xserver",
+        "ghcr.io/sebst/dc-features/desktop-fluxbox"
     ],
     "init": false,
     "privileged": false,
