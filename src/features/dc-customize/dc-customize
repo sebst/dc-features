@@ -18,4 +18,6 @@ echo "Customizing DevContainer..."
 echo "Profile ID: ${dcProfileId}"
 echo "API Key: ${dcApiKey}"
 
-sleep 10
+# sleep 10
+
+dc-ccli customization apply ${dcProfileId} ${dcApiKey}

@@ -1,7 +1,7 @@
 {
     "name": "dc-customize",
     "id": "dc-customize",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "dc-customize: Description (TODO)",
     "dependsOn": {
         "ghcr.io/sebst/dc-features/dc-ccli": {}
