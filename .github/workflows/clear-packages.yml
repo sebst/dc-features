@@ -6,15 +6,16 @@ on:
         type: choice
         description: Which feature package(s) I delete?
         required: true
-        default: '*'
+        default: "*"
         options:
-        - '*'
-        - 'dc-ccli'
-        - 'dc-pkgx'
-        - 'dc-s6-overlay'
-        - 'dc-s6-service-sshd'
-        - 'dc-sshd'
-        - 'dc-sshd-config-global'
+          - "*"
+          - "dc-ccli"
+          - "dc-customize"
+          - "dc-pkgx"
+          - "dc-s6-overlay"
+          - "dc-s6-service-sshd"
+          - "dc-sshd"
+          - "dc-sshd-config-global"
 
 run-name: >-
   [delete] Feature Package: "${{ inputs.feature }}"
@@ -24,7 +25,7 @@ concurrency:
 
 jobs:
   deploy:
-    name: '[delete] Feature Package(s)'
+    name: "[delete] Feature Package(s)"
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -35,7 +36,7 @@ jobs:
     steps:
       - if: ${{ inputs.feature == '*' }}
         id: delete-all
-        name: 'Delete all Packages'
+        name: "Delete all Packages"
         shell: /usr/bin/bash --noprofile --norc -o errexit -o pipefail -o noclobber -o nounset -e {0}
         ## see: https://github.com/actions/github-script
         ## see: https://github.com/actions/delete-package-versions
@@ -84,7 +85,7 @@ jobs:
           done
 
       - if: ${{ inputs.feature != '*' }}
-        name: 'Delete selected Package'
+        name: "Delete selected Package"
         id: delete-selected
         shell: /usr/bin/bash --noprofile --norc -o errexit -o pipefail -o noclobber -o nounset -e {0}
         run: |

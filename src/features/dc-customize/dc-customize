@@ -1,0 +1,19 @@
+#!/bin/bash
+set -o errexit
+set -o pipefail
+set -o noclobber
+set -o nounset
+set -o allexport
+
+readonly dcApiKey="API_KEY"
+readonly dcProfileId="PROFILE_ID"
+
+echo_banner() {
+    echo -e "\e[1m\e[97m\e[41m${1}\e[0m"
+}
+
+echo_banner "DEVCONTAINER.COM"
+echo "Customizing DevContainer..."
+
+echo "Profile ID: ${dcProfileId}"
+echo "API Key: ${dcApiKey}"

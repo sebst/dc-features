@@ -6,32 +6,33 @@ on:
         type: choice
         description: Which feature shall I publish?
         required: true
-        default: '*'
+        default: "*"
         options:
-        - '*'
-        - 'cf-warp-cli'
-        - 'dc-ccli'
-        - 'dc-init'
-        - 'dc-one'
-        - 'dc-pkgx'
-        - 'dc-s6-overlay'
-        - 'dc-s6-service-sshd'
-        - 'dc-setup-env'
-        - 'dc-sshd'
-        - 'dc-sshd-config-global'
-        - 'dump-env'
-        - 'dump-env-2'
-        - 'test-init'
-        - 'test-init-2'
-        - 'test-meta'
-        - 'zz-double-install-test'
-        - 'zz-tini-test'
-        - 'desktop-xserver'
-        - 'desktop-fluxbox'
-        - 'desktop-novnc'
-        - 'desktop'
-        - 'desktop-init'
-        - 'pcan'
+          - "*"
+          - "cf-warp-cli"
+          - "dc-ccli"
+          - "dc-init"
+          - "dc-one"
+          - "dc-customize"
+          - "dc-pkgx"
+          - "dc-s6-overlay"
+          - "dc-s6-service-sshd"
+          - "dc-setup-env"
+          - "dc-sshd"
+          - "dc-sshd-config-global"
+          - "dump-env"
+          - "dump-env-2"
+          - "test-init"
+          - "test-init-2"
+          - "test-meta"
+          - "zz-double-install-test"
+          - "zz-tini-test"
+          - "desktop-xserver"
+          - "desktop-fluxbox"
+          - "desktop-novnc"
+          - "desktop"
+          - "desktop-init"
+          - "pcan"
 
 run-name: >-
   [release] Publish Feature: "${{ inputs.feature }}"
@@ -42,7 +43,7 @@ concurrency:
 
 jobs:
   deploy:
-    name: '[release] Publish Feature(s)'
+    name: "[release] Publish Feature(s)"
     if: ${{ github.ref == 'refs/heads/main' }}
     runs-on: ubuntu-latest
     permissions:
@@ -55,7 +56,7 @@ jobs:
       - if: ${{ inputs.feature != '*' }}
         uses: actions/checkout@v4
         with:
-          sparse-checkout-cone-mode: 'true'
+          sparse-checkout-cone-mode: "true"
           sparse-checkout: |
             features/${{ inputs.feature }}
 
