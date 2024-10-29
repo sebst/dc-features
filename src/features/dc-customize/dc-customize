@@ -17,3 +17,5 @@ echo "Customizing DevContainer..."
 
 echo "Profile ID: ${dcProfileId}"
 echo "API Key: ${dcApiKey}"
+
+sleep 10
