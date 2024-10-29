@@ -1,12 +1,12 @@
 {
     "name": "dc-customize",
     "id": "dc-customize",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "dc-customize: Description (TODO)",
     "dependsOn": {
-        "ghcr.io/sebst/dc-features/dc-ccli:1.0.1": {}
+        "ghcr.io/sebst/dc-features/dc-ccli": {}
     },
-    "postStartCommand": "/usr/bin/dc-customize",
+    "postStartCommand": "/usr/local/bin/dc-customize",
     "options": {
         "api_key": {
             "type": "string",

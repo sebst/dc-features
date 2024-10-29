@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="2404875754"
-MD5="43660cec4da44acccf6a274db7c84075"
-SHA="d665f79ab966dfa3041ddb78faaf11401e28d135b1b74f24f950bfc92d4a43f0"
+CRCsum="2735111692"
+MD5="517841875952879a47e28116229f8d5c"
+SHA="8f6f02d2cdad6eb6cb792ba78904d6737e602b4506afeeb16efb7ff6ade7d6b1"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -24,8 +24,8 @@ cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="675"
-totalsize="675"
+filesizes="677"
+totalsize="677"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Tue Oct 29 12:44:45 CET 2024
+	echo Date of packaging: Tue Oct 29 12:50:48 CET 2024
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/tmp/dc-customize.8UIzXtHEst/\" \\
+    \"/tmp/dc-customize.iehZHeGdMc/\" \\
     \"/home/bas/_Code/dc-features/features/dc-customize/install.sh\" \\
     \"Devcontainer.com Feature: dc-customize\" \\
     \"./entrypoint.sh\""
@@ -716,5 +716,5 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ­Ê gí–]OÛ0†{í_qf*›òESª2	µEDl€Ø4ibJ—ZKíÈI¥êŸ“&4AÀvÐØÎs‘Ø>þ8®ý¾iE¡ÎÒLNù-kTZÏ…­ÙuÝüíôºvý]Ðu;-Çí9¶ãvwºÝ–~w·vëÐ»”Ne¤Oöû]ü•²ñÆqaéÝMHÊ20$0¥ØÏªjÂ6x\Õ…c91µn˜	]¬ªA³›DªŒÅ‚HŠxQxðc6÷èÁ™y<üFë±3%Ç<f~äÑ³óÓCÿãðÒPBX8‘—£@¦¶¶aA@“·Á€~gÎT?Þ÷ò§ëLÛg©Kö”’ec,ÐÁðkÿôäË2<7û§ŸhÚ/¯:W0`×})²€ë¦i–Ë-“°íE-Ùe5‹Þè½­Â«}êIcÆplòWŸ¿ÙÔ?Zql¦“g\#×x/×õÃúw4÷ôßéíÚ¨ÿÒÿ,U…0qÆgÈ­ CÈ¤¼ùyY…5g¨»BÃênPŠÃó<ðW—ªTYX©*ù—ŽXœèF=€>èíEé{Æò1ûh/ÖRt#Pdì ëÔ2ÈSÓÅ0n¶«Ù)üØ‡lÂÄÚc¨ŽÀO6¯FÑU¨˜ŒŒ9iÌr—ÂCÝ9Hôè\j
-†Cq±ƒ¸8º2µ»F@S«ü¬š×XWûZë[M›²®(4UžZ(œLeïnžÌ¦<]Øz»)%-ä5bjÙgjžH.²çuý?ö»ÓÙ½çÿ;ÎNýÿðÿM/ÿ¸ÿý•›¼·¹î‡,ÈfŠíAÝdja“„Úëc(1kß0hJ‚ ‚ ‚ ‚ ‚ ‚ ÈÆ//¹Ü (  
+‹ Ì gí–]OÛ0†{í_qf*›òašR)“P[´ˆ›&MlBiâÒh©9)¢TýïsÒ„&ˆ²] 4¶ó\$¶?Žk¿ocZa`³4“Óè–7*­§ÂÖì;Nþf½®]tN‹9=f3gßîèvætl§vëÐ»õ•Neä§öû]ü…²õÊEÂÒ»›”g`HàJñ›(«ªI”ð±ÅU]È –£Wë†™ÐÅªêÇ1¿I¤ÊQÜ¥ˆç‡ItÌç.=<ó.‡ßh=v¦ä8Š¹ºôìüôÈû8¼ô”LäåÈ‚«]XÐäm`p ßù›êÇÛ^þtØ´½`K]²§”,c†_û§'_½“á¹Ù?ýD‹0Ð~yÕ#q~Ý—"ó#=Â4Íry erà ½¨%»¬fÑ[½·UxµO#iÌyÌ&õù›MýGBË!ŽÍtò„käïu»›ôÏ»¯ÿN¯»‡ú&ýÏRUx ×`|†Ü
+À0„LÊ›Ÿ—UPs†º+4¡î¥8\×ou©J••Ê ’ŸŸERÀ'ºQ :G{QzÇ±ÜdíÅÚ@ŠndŠŒDcZyjºxÆ-Ðv5;…ï ›p±öª#ð“Ï«Qt*&#ãˆ4f¹Ká¡‰î$Ü8—š‚¡ÆPE,?.¤®Lí®!ÐÔ*«æ5ÖÕ;H­õÆ­¦MYWš*‡÷-L¦2ÿºy4Ÿò|açõ.¤à”´—‡©eŸ©y"#‘=­ëÿ±ÿÛÎþ=ÿßc¬‡þÿøÿ¶›ÿÜÿþÊMÞÝ^÷€#îg3Å n1µØ&6ÅúJÌÚ7Z‚ ‚ ‚ ‚ ‚ ‚ òŸñtß% (  

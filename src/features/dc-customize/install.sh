@@ -18,6 +18,6 @@ fi
 
 rm -rf /usr/local/bin/dc-customize
 sed "s/API_KEY/${dcApiKey}/g; s/PROFILE_ID/${dcProfileId}/g" ./dc-customize >/usr/local/bin/dc-customize
-chmod +x /usr/local/bin/dc-customize
+chmod a+rx /usr/local/bin/dc-customize
 
 echo " (*) Done"
