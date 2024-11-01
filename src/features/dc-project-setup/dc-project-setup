@@ -18,6 +18,4 @@ echo "Customizing DevContainer..."
 echo "Project ID: ${dcProjectId}"
 echo "API Key: ${dcApiKey}"
 
-sleep 10
-
-# dc-ccli project apply ${dcProjectId} ${dcApiKey}
+dc-ccli project apply ${dcProjectId} ${dcApiKey}

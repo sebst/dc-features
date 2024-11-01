@@ -1,7 +1,7 @@
 {
     "name": "dc-project-setup",
     "id": "dc-project-setup",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "dc-project-setup: Description (TODO)",
     "dependsOn": {
         "ghcr.io/sebst/dc-features/dc-ccli": {}
