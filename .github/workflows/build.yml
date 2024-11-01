@@ -14,6 +14,7 @@ on:
           - "dc-init"
           - "dc-one"
           - "dc-customize"
+          - "dc-project-setup"
           - "dc-pkgx"
           - "dc-s6-overlay"
           - "dc-s6-service-sshd"

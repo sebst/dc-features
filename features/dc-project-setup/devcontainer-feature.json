@@ -1,0 +1,22 @@
+{
+    "name": "dc-project-setup",
+    "id": "dc-project-setup",
+    "version": "0.0.1",
+    "description": "dc-project-setup: Description (TODO)",
+    "dependsOn": {
+        "ghcr.io/sebst/dc-features/dc-ccli": {}
+    },
+    "postStartCommand": "/usr/local/bin/dc-project-setup",
+    "options": {
+        "api_key": {
+            "type": "string",
+            "default": "",
+            "description": "API Key"
+        },
+        "project_id": {
+            "type": "string",
+            "default": "",
+            "description": "Project Id"
+        }
+    }
+}

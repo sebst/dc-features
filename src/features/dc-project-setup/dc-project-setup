@@ -1,0 +1,23 @@
+#!/bin/bash
+set -o errexit
+set -o pipefail
+set -o noclobber
+set -o nounset
+set -o allexport
+
+readonly dcApiKey="API_KEY"
+readonly dcProjectId="PROJECT_ID"
+
+echo_banner() {
+    echo -e "\e[1m\e[97m\e[41m${1}\e[0m"
+}
+
+echo_banner "DEVCONTAINER.COM"
+echo "Customizing DevContainer..."
+
+echo "Project ID: ${dcProjectId}"
+echo "API Key: ${dcApiKey}"
+
+sleep 10
+
+# dc-ccli project apply ${dcProjectId} ${dcApiKey}
