@@ -1,0 +1,13 @@
+{
+    "name": "bash_bundler",
+    "id": "bash_bundler",
+    "version": "0.0.1",
+    "description": "Simple Bash Bundler",
+    "options": {
+      "version": {
+        "type": "string",
+        "default": "latest",
+        "description": "Version of \"sbb\" to install."
+      }
+    }
+  }

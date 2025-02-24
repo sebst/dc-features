@@ -1,0 +1,9 @@
+{
+    "name": "Feature-B",
+    "id": "feature-b",
+    "version": "1.0.0",
+    "description": "Feature B",
+    "dependsOn": {
+        "ghcr.io/sebst/dc-features/feature-a:1": {}
+    }
+}
