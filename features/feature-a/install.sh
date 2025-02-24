@@ -7,9 +7,9 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="1358663510"
-MD5="d3562e3a9723dece59a2cf969c7dd74b"
-SHA="19b3e81b1a5dadb14c66cc7ddeea35996f8d98fdd8127778d51755b57a91e1e3"
+CRCsum="1116432474"
+MD5="fd34a707ae66e7281206e4460b03baae"
+SHA="3ca4a4c801fe83ea7d9cfbeefc1d980d67f964caa231d1aa77db1d652abf169b"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
 USER_PWD="$PWD"
@@ -376,14 +376,14 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Mon Feb 24 20:47:55 CET 2025
+	echo Date of packaging: Mon Feb 24 21:22:47 CET 2025
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "./makeself-2.5.0/makeself.sh \\
     \"--gzip\" \\
     \"--current\" \\
     \"--nox11\" \\
     \"--sha256\" \\
-    \"/var/folders/pw/29431csn269cdcl_bdbpmy040000gn/T/feature-a.XXXXXXXXXX.4QbfivkCye/\" \\
+    \"/var/folders/pw/29431csn269cdcl_bdbpmy040000gn/T/feature-a.XXXXXXXXXX.572PmyjJtY/\" \\
     \"/Users/sebst/Dropbox/Code/sebst/dc-features/features/feature-a/install.sh\" \\
     \"Devcontainer.com Feature: feature-a\" \\
     \"./entrypoint.sh\""
@@ -716,4 +716,4 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ ëÌ¼gí“KKÄ0€{î¯ë¡§¶é¦<Èº=Ø‚ŠñÐÖ”JR’Tôß›l¥».^\YÈw™I2<æ#Â”ø9e*”½ó „ò4…]ÌæˆVÉ#ˆ“<Íã$Ã)'«;€œ0IU}I©ŽÔé²®;~I,ñL¸¼ˆ&)¢†2Ýo<@SË‚€ñQðŽd—‹DòN•IG:’®¦ƒÉoÞ4DÌƒ‰I¢\—´=ÿZ·›§uU>Þåæ>\Ww`fý}lI­&A® ›“ >Xýßm_Á[6xnQ¦it»ŽåW„Ñò‚ÏwZÿQþÝÿçÈúÿþù¿ÔõŒ˜ÏE¹­^ ˜;c¯§gÍ±X,–óæ¼°N›   
+‹ Õ¼gí“KKÄ0€{î¯ëaOmÓg@ð ë.ô`*^ÄC[S(IIRÑo²•î"¸xqe!ße&Éò˜/	Sâcä”©@öÎ_€ÂY»˜ÏÅéI‚ Jq†£,Nc(Jã<v 9'`’ªú(’4R©Óe]wü’Xâ™pyNR„eºÞÀ€¦–=ø>ã£àÈ.-øˆä*“Žt$]M“3Þ¼iˆ˜“D¹.i{«kÜnžÖUùxS”›û`]Ý™]í+`Kj5	rÝœøõÁê¬Üö¼eƒç!eú—†A÷±ëX~E./xð|§õáïþgIŽ­ÿÿà¿‘ÿK]Ïˆù\”ÛêŠ¹3özzÖ‹Åb9o>¨j   
